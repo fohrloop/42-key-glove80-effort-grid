@@ -1,0 +1,41 @@
+# Layout:
+# -------
+# 1qwert       uyiop4
+# 2asdfg       hjklö5
+# 3zxcvb       nm,.-6
+#      789   =+§
+#
+# (On US keyboard ö-§ translates to ;/`)
+#
+left:
+    pinky: "123qaz"
+    ring: "wsx"
+    middle: "edc"
+    index: "rfvtgb"
+    thumb: "789"
+right:
+    thumb: "§+="
+    index: "yhnujm"
+    middle: "ik,"
+    ring: "ol."
+    pinky: "pö-456"
+
+home_key_sequence_left: sdf
+home_key_sequence_right: lkj
+
+# The amount of random trigrams to generate per character
+trigrams_per_char: 10
+
+# How many times to record timing for each trigram
+trigram_repeat_times: 7
+
+###############
+# Calculations
+# -------------
+
+# How many (best) timings fromm each trigram to use in calculations
+trigram_use_n_best: 3
+
+# Recorded with effort.keyboard.estimate_bias
+home_key_sequence_timing_left: 0.212
+home_key_sequence_timing_right: 0.223

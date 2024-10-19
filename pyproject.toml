@@ -1,0 +1,15 @@
+[project]
+name = "effort-grid"
+version = "0.1.0"
+dependencies = [
+    'typer', # tested on 0.12.5
+    'pyyaml', # tested on 6.0.2
+    'pynput',
+    'matplotlib',
+    'scikit-learn',
+]
+
+
+[project.scripts]
+effort_grid_record = "effort.cli:cli_effort_grid_record"
+effort_grid_show = "effort.cli:cli_effort_grid_show"
